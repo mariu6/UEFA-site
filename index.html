@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>UEFA</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div>
+				<a target="_blank" href="http://www.uefa.com/"><img src="images/uefa-logo.png" alt="UEFA official site"></a>
+			</div>
+			<nav id="headerMenu">
+				<ul>
+					<li>Home</li>
+					<li>UEFA Champions League</li>
+					<li>UEFA Europa League</li>
+					<li>Team of the year</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="table1">
+				<h4>Group E</h4>
+				<table>
+					<thead>
+							<th>&#8470;</th>
+							<th>Team</th>
+							<th>W</th>
+							<th>D</th>
+							<th>L</th>
+							<th>Points</th>
+					</thead>
+					<tbody>
+						<tr class="green">
+							<td>1</td>
+							<td>FC Barcelona</td>
+							<td>4</td>
+							<td>2</td>
+							<td>0</td>
+							<td>14</td>
+						</tr>
+						<tr class="green">
+							<td>2</td>
+							<td>AS Roma</td>
+							<td>1</td>
+							<td>3</td>
+							<td>2</td>
+							<td>6</td>
+						</tr>
+						<tr class="lightGreen">
+							<td>3</td>
+							<td>Bayer 04 Leverkusen</td>
+							<td>1</td>
+							<td>3</td>
+							<td>2</td>
+							<td>6</td>
+						</tr>
+						<tr class="violet">
+							<td>4</td>
+							<td>FC BATE Borisov</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>5</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<article>
+					<h4>&#049; New sponsors &#057;</h4>
+					<div id="sponsors">
+						<div class="titanic"><a href="#"><img src="images/titanic.png" alt="Titanic"></a></div>
+						<div class="titanic"><a href="#"><img src="images/pumba.jpg" alt="Pumba"></a></div>
+						<div class="titanic"><a href="#"><img src="images/nissan-logo.png" alt="Nissan"></a></div>
+					</div>
+					<p id="text1">The president of UEFA announced the newly signed</p>
+					<p id="text2">sponsors of UEFA Champions League. The new 
+					sponsors will bring to the tournament <span id="italic">Read more...</span></p>
+					<p id="text3">Written by Unknown Author / 16.12.2015</p>
+				</article>
+			</div>
+			
+			<form method="post" action="apply-now.php">
+				<fieldset class="field1" >
+				<legend>Register new sponsor</legend>
+					<div class="personal">
+						<label for="Username">Company<span class="star">*</span></label>
+						<input type="text" name="Username" id="Username"
+						placeholder=" Enter your company name"
+						pattern="[A-Za-z0-9]+" required="true" />
+						<br />
+						
+						<label for="E-mail">Password<span class="star">*</span></label>
+						<input type="password" name="E-mail" id="E-mail"
+						pattern="[A-Za-z0-9]+" required="true" />
+						<br />
+						
+						<label for="Birth date">Confirm password<span class="star">*</span></label>
+						<input  type="password" name="Birth date" id="Birth date"
+						pattern="[A-Za-z0-9]+" required="true" />
+						<br />
+					</div>
+			
+					<div class="bottom">
+						<div class="land">
+							<label for="country">Country</label>
+							<select name=country autofocus="true"> 
+								<optgroup label="Africa">
+									<option value=”BEN”>Benin</option>  
+									<option value=”NIG”>Niger</option>
+								<optgroup label="Asia">
+									<option value=”Chi”>China</option>  
+									<option value=”JPN”>Japan</option>
+									<option value=”RUS”>Russia</option>
+									<option value=”QAT” selected=”selected”>Qatar</option>
+								<optgroup label="Europe">
+									<option value=”BG”>Bulgaria</option>  
+									<option value=”EN”>England</option>
+									<option value=”FR” >France</option>
+					
+							</select>
+							<br />
+						</div>
+						<div>
+							<label for="checkbox" class="check">Business field</label>
+							<div class="checkbox">		
+								<label for="youCan" class="inline"><input name="Oil" type="checkbox" id="Oil" />Oil</label>
+								<label for="Choose" class="inline"><input name="Airlines" type="checkbox" id="Airlines" />Airlines</label>
+								<label for="All" class="inline"><input name="Gold" type="checkbox" id="Gold" />Gold</label>
+							</div>
+						</div>
+					</div>	
+				</fieldset>
+				
+				<fieldset class="field1" >
+					<legend>What do you offer?</legend>
+						<div class="personal">	
+							<input type="text" name="Offer" 
+							pattern="[0-9.]+" required="true" />
+							<br />
+							<label for="Username">* in million dollars</label>	
+						</div>
+				</fieldset>
+				
+				<input class="submit" type="submit" name="submit" value="Submit" />
+				<input class="reset" type="reset" value="Reset" />
+				
+			</form>
+			
+			
+			
+		</main>
+		<footer>
+			<nav id="footerMenu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">UEFA Champions League</a></li>
+					<li><a href="#">UEFA Europa League</a></li>
+					<li><a href="#">Team of the year</a></li>
+				</ul>
+			</nav>
+			<div class="copyright">
+				<p>&copy; 1998-2015 UEFA. All rights reserved.</p>
+				<p>
+					The UEFA word, the UEFA logo and all marks related 
+					to UEFA competitions, are protected by trade marks and/or 
+					copyright of UEFA. No use for commercial purposes may be 
+					made of such trade marks. Use of UEFA.com signifies your 
+					agreement to the Terms and Conditions and Privacy Policy.
+				</p>
+			</div>
+			<div>
+				<ul id="social">
+				    <li id="home"><a href="#"></a></li>
+				    <li id="prev"><a href="#"></a></li>
+				    <li id="next"><a href="#"></a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
